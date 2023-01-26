@@ -10,6 +10,14 @@ public class DemoApp {
       String name = "luffy";
       int count = name.toUpperCase().length();
       System.out.println(count);
+      
+      StringBuffer sb = new StringBuffer("SAnji");
+      sb.append("Zoro");
+      System.out.println(sb);
+      
+      StringBuffer sb1 = new StringBuffer("SAnji");
+      sb.append("Zoro");
+      System.out.println(sb1);
 	}
 
 }
